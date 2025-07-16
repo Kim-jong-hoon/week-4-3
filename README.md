@@ -88,8 +88,3 @@ YOLOv8 (You Only Look Once version 8)은 Ultralytics에서 개발한 실시간 �
 
 
 
-# 학습된 모델로 예측
-yolo detect predict model=runs/detect/train/weights/best.pt source=your_image.jpg
-
-# 모델 성능 평가
-yolo detect val model=best.pt data=data.yaml
